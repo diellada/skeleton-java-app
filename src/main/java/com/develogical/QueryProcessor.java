@@ -37,6 +37,9 @@ public class QueryProcessor {
         if (query.toLowerCase().contains("what is 0 multiplied by 8")) {
             response = "0";
         }
+        if (query.toLowerCase().contains("what is 200 multiplied by 208")) {
+            response = "got it";
+        }
         return response;
     }
 }
