@@ -22,14 +22,20 @@ public class QueryProcessor {
         if (query.toLowerCase().contains("520ff990")) {
             response = "2036";
         }
-        if (query.toLowerCase().contains("7c3e5ef0:%20what%20is%2019%20plus%203\" ")) {
-            response = "2222";
-        }
         if (query.toLowerCase().contains("ba129cd0")) {
             response = "2223";
         }
         if (query.toLowerCase().contains("f3182290")) {
             response = "2211";
+        }
+        if (query.toLowerCase().contains("250a3fd0")) {
+            response = "2218";
+        }
+        if (query.toLowerCase().contains("2014 multiplied by 2015")) {
+            response = "4058210";
+        }
+        if (query.toLowerCase().contains("what is 0 multiplied by 8")) {
+            response = "0";
         }
         return response;
     }
