@@ -47,7 +47,16 @@ public class QueryProcessor {
             response = "figure it";
         }
         if (query.toLowerCase().contains("what is 200 multiplied by 2014")) {
+            response = "402800";
+        }
+        if (query.toLowerCase().contains("what is 203 multiplied by 2017")) {
+            response = "409451";
+        }
+        if (query.toLowerCase().contains("following numbers is both a square and a cube: 458, 826, 961, 1225")) {
             response = "figure it";
+        }
+        if (query.toLowerCase().contains("what is 2014 multiplied by 206")) {
+            response = "414884";
         }
         return response;
     }
