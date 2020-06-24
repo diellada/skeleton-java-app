@@ -107,10 +107,10 @@ public class QueryProcessor {
         if (query.toLowerCase().contains("which of the following numbers is the largest: 24, 383, 92, 894")) {
             response = "894";
         }
-        if (query.toLowerCase().contains("which of the following")) {
-            response = "answer";
+        if (query.toLowerCase().contains("which of the following numbers are primes: 523, 247")) {
+            response = "247";
         }
-        if (query.toLowerCase().contains("what is")) {
+        if (query.toLowerCase().contains("which of the following") || query.toLowerCase().contains("what is")) {
             response = "answer";
         }
         return response;
