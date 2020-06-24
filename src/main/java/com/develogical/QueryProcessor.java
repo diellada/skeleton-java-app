@@ -10,6 +10,15 @@ public class QueryProcessor {
         if (query.toLowerCase().contains("favicon.ico")) {
             response = "favicons for you";
         }
+        if (query.toLowerCase() == "") {
+            response = "nothing here??";
+        }
+        if (query.toLowerCase().contains("romeo")) {
+            response = "where art thou romeo";
+        }
+        if (query.toLowerCase() == "api") {
+            response = "api";
+        }
         return response;
     }
 }
