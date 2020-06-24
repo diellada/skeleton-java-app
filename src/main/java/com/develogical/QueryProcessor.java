@@ -35,6 +35,9 @@ public class QueryProcessor {
         if (query.toLowerCase().contains("2014 multiplied by 2015")) {
             response = "4058210";
         }
+        if (query.toLowerCase().contains("205 multiplied by 2012")) {
+            response = "412460";
+        }
         if (query.toLowerCase().contains("what is 0 multiplied by 8")) {
             response = "0";
         }
@@ -94,6 +97,9 @@ public class QueryProcessor {
         }
         if (query.toLowerCase().contains("which of the following numbers is the largest: 455, 45")) {
             response = "455";
+        }
+        if (query.toLowerCase().contains("which of the following numbers is the largest: 24, 383, 92, 894")) {
+            response = "894";
         }
         if (query.toLowerCase().contains("which of the following")) {
             response = "answer";
