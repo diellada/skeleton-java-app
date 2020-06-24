@@ -16,8 +16,8 @@ public class QueryProcessor {
         if (query.toLowerCase().contains("romeo")) {
             response = "Shakespeare";
         }
-        if (query.toLowerCase() == "api") {
-            response = "api";
+        if (query.toLowerCase().contains("1752be50")) {
+            response = "answer is something";
         }
         return response;
     }
