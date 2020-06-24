@@ -3,9 +3,13 @@ package com.develogical;
 public class QueryProcessor {
 
     public String process(String query) {
+        String response = "";
         if (query.toLowerCase().contains("romeo and juliet")) {
-            return "William Shakespeare!";
+            response = "William Shakespeare!";
         }
-        return "";
+        if (query.toLowerCase().contains("favicon.ico")) {
+            response = "favicons for you";
+        }
+        return response;
     }
 }
