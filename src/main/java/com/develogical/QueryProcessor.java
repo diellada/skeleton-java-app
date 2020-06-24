@@ -89,6 +89,9 @@ public class QueryProcessor {
         if (query.toLowerCase().contains("what is")) {
             response = "answer";
         }
+        if (query.toLowerCase().contains("which of the following")) {
+            response = "answer";
+        }
         return response;
     }
 }
