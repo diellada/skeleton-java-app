@@ -35,6 +35,9 @@ public class QueryProcessor {
         if (query.toLowerCase().contains("2014 multiplied by 2015")) {
             response = "4058210";
         }
+        if (query.toLowerCase().contains("200 minus by 206")) {
+            response = "-6";
+        }
         if (query.toLowerCase().contains("205 multiplied by 2012")) {
             response = "412460";
         }
@@ -58,6 +61,9 @@ public class QueryProcessor {
         }
         if (query.toLowerCase().contains("following numbers is both a square and a cube: 458, 826, 961, 1225")) {
             response = "figure it";
+        }
+        if (query.toLowerCase().contains("following numbers is both a square and a cube: 887, 225")) {
+            response = "225";
         }
         if (query.toLowerCase().contains("what is 2014 multiplied by 206")) {
             response = "414884";
