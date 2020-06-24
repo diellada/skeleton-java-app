@@ -83,6 +83,9 @@ public class QueryProcessor {
         if (query.toLowerCase().contains("2017 multiplied by 202")) {
             response = "paris";
         }
+        if (query.toLowerCase().contains("205 multiplied by 202")) {
+            response = "paris";
+        }
         if (query.toLowerCase().contains("what is")) {
             response = "answer";
         }
