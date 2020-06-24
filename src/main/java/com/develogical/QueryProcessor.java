@@ -74,6 +74,12 @@ public class QueryProcessor {
         if (query.toLowerCase().contains("2014 multiplied by 2018")) {
             response = "4064252";
         }
+        if (query.toLowerCase().contains("what colour is a banana")) {
+            response = "yellow";
+        }
+        if (query.toLowerCase().contains("what city is the eiffel tower in")) {
+            response = "paris";
+        }
         if (query.toLowerCase().contains("what is")) {
             response = "answer";
         }
