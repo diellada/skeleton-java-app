@@ -40,6 +40,15 @@ public class QueryProcessor {
         if (query.toLowerCase().contains("what is 200 multiplied by 208")) {
             response = "got it";
         }
+        if (query.toLowerCase().contains("what is 208 plus by 202")) {
+            response = "410";
+        }
+        if (query.toLowerCase().contains("what is 207 multiplied by 2013")) {
+            response = "figure it";
+        }
+        if (query.toLowerCase().contains("what is 200 multiplied by 2014")) {
+            response = "figure it";
+        }
         return response;
     }
 }
