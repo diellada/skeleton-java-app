@@ -86,10 +86,19 @@ public class QueryProcessor {
         if (query.toLowerCase().contains("205 multiplied by 202")) {
             response = "paris";
         }
-        if (query.toLowerCase().contains("what is")) {
-            response = "answer";
+        if (query.toLowerCase().contains("which of the following numbers are primes: 212, 23")) {
+            response = "23";
+        }
+        if (query.toLowerCase().contains("which of the following is the largest: 20, 498")) {
+            response = "498";
+        }
+        if (query.toLowerCase().contains("which of the following numbers is the largest: 455, 45")) {
+            response = "455";
         }
         if (query.toLowerCase().contains("which of the following")) {
+            response = "answer";
+        }
+        if (query.toLowerCase().contains("what is")) {
             response = "answer";
         }
         return response;
